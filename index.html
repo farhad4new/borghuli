@@ -48,6 +48,7 @@ Know about Borghuli
 
 <div class="borghuli-divide" >
 <h2><strong>Borghuli No 1</strong></h2>
+  <a href="borghuli-no-1.html">Know more about Borghuli No. 1</a>
 <div class="divided-main" >
 <div class="part-info-div" >
 <h3>Demographics</h3>
@@ -532,7 +533,14 @@ Literacy Rate
 
 <p class="dev-info-p" >Developed by <span>Farhad A***</span></p>
 </footer>
-<script src="scripts.js"></script>
+<script>
+  function showLModified() {
+
+let lastModifiedP = document.createElement("p");
+lastModifiedP.innerHTML = document.lastModified;
+document.body.appendChild(lastModifiedP);
+} showLModified();
+</script>
 
 </body>
 </html>
