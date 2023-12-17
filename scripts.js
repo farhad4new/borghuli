@@ -1,6 +1,2 @@
-function showLModified() {
-
-let lastModifiedP = document.createElement("p");
+let lastModifiedP = document.getElementById("l-modified-p");
 lastModifiedP.innerHTML = document.lastModified;
-document.body.appendChild(lastModifiedP);
-} showLModified();
