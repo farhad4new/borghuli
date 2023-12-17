@@ -554,13 +554,13 @@ Literacy Rate
 </div>
 
 <p class="dev-info-p" >Developed by <span>Farhad A***</span></p>
+  <p id="l-modified-p"></p>
 </footer>
 <script>
   function showLModified() {
 
-let lastModifiedP = document.createElement("p");
+let lastModifiedP = document.getElementById("l-modified-p");
 lastModifiedP.innerHTML = document.lastModified;
-document.body.appendChild(lastModifiedP);
 } showLModified();
 </script>
 
